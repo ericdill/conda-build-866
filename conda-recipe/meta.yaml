@@ -1,0 +1,20 @@
+package:
+  name: conda-build-866
+  version: 1
+
+source:
+  git_url: ../
+
+requirements:
+  build:
+    - python
+  run:
+    - python
+
+test:
+  imports:
+    - conda_build_866
+
+about:
+  home: https://github.com/ericdill/conda-build-866
+  license: BSD
